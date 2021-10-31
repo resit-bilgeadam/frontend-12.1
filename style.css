@@ -24,3 +24,17 @@ p {
     line-height: 1.6;
     padding: 10px;
 }
+.btn {
+    background-color: slateblue;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+    color: snow;
+    transition: 200ms;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: tomato;
+}
