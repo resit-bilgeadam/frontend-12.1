@@ -1,0 +1,12 @@
+# İleri seviye git komutları
+
+'git' komutunu aşağıdaki komutlarla beraber çalıştırarak aşağıdaki işlemleri yapabiliriz
+
+git push -u origin <branch_adı> = origin url'ine girmiş olduğunuz branchi yollar
+pull = remote reposu belirli olan bir local reponun remote üzerindeki en güncel versiyonu indirmemizi sağlar
+push = localimizde commit ettiğimiz değişiklikleri remote branche aktarmamızı sağlar
+checkout -b <branch_adı> = girilen branch adında yeni bir local branch oluşturmamızı sağlar
+checkout <branch_adı> = localimizde varolan branch adını girerek o branche geçebiliriz
+branch = localimizde varolan branch listesini görüntüleyebiliriz
+branch -D <branch_adı> = localimizde varolan bir branchi silmek için kullanabiliriz (not: sileceğimiz branchte olmamalıyız)
+rebase <branch_adı> = yarattığımız bir branchin baz olarak aldığı branchteki değişiklikleri kendi değişikliklerimizin altına eklemek için kullanılır
