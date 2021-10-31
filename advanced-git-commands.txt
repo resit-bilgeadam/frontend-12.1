@@ -10,3 +10,8 @@ checkout <branch_adı> = localimizde varolan branch adını girerek o branche ge
 branch = localimizde varolan branch listesini görüntüleyebiliriz
 branch -D <branch_adı> = localimizde varolan bir branchi silmek için kullanabiliriz (not: sileceğimiz branchte olmamalıyız)
 rebase <branch_adı> = yarattığımız bir branchin baz olarak aldığı branchteki değişiklikleri kendi değişikliklerimizin altına eklemek için kullanılır
+merge <branch_adı> = başka bir branchteki commitleri, içerisinde bulunduğumuz branchin commitleri ile birleştimek için kullanırız
+
+*NOT: 'merge' ile 'rebase' komutları iki branchi birleştirmek kullanılır ancak birleştirme yöntemleri farklılık gösterir
+'merge' komutu commit tarihlerine göre birleştirirken
+'rebase' komutu çağırdığınız branchin sizdeki eksik commitlerini en alta ekler
