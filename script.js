@@ -1,1 +1,1 @@
-console.log('SASDSASD')
+console.log('GİTHUB REMOTE!');
