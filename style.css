@@ -13,3 +13,7 @@
 .card {
     border: 1px solid slategray;
 }
+
+p {
+    font-weight: 700;
+}
