@@ -9,3 +9,6 @@
     margin: auto;
     background-color: lightblue;
 }
+p {
+    font-weight: 700;
+}
