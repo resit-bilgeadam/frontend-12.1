@@ -19,3 +19,8 @@
 p {
     font-weight: 700;
 }
+.text{
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 10px;
+}
