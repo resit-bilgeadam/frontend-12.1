@@ -9,3 +9,7 @@
     margin: auto;
     background-color: lightblue;
 }
+
+.card {
+    border: 1px solid slategray;
+}
